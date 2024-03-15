@@ -3,7 +3,7 @@ body {
     padding: 0;
     flex-wrap: wrap;
     justify-content: center;
-    background-color:white;
+    background-color: white;
 }
 
 * {
@@ -26,22 +26,22 @@ header {
     background: linear-gradient(to bottom, #BC8F8F 0%, #ffffff 100%);
     border-radius: 10px;
     padding: 10px;
-  }
-  
+}
+
 header .logo {
     flex: 0 0 auto;
-  }
-  
+}
+
 .search-input {
     float: right;
     width: 30%;
-    border-radius: 20px; 
+    border-radius: 20px;
     border-width: 2px;
     border-color: #BC8F8F;
     height: 40px;
     margin: 5px;
-  }
-  
+}
+
 .logo img {
     display: block;
     width: 170px;
@@ -110,7 +110,8 @@ nav a:hover {
     font-weight: 700;
 }
 
-.product-dog, .product-cat {
+.product-dog,
+.product-cat {
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -131,11 +132,12 @@ nav a:hover {
     flex-direction: column;
 }
 
-.product-img-dog, .product-img-cat {
+.product-img-dog,
+.product-img-cat {
     width: 80px;
     height: auto;
     background-color: #FA8072;
-    border-radius: 20px;  
+    border-radius: 20px;
 }
 
 .product-description {
@@ -157,7 +159,7 @@ footer {
     height: 200px;
     border-top: 2px solid #BC8F8F;
     width: 100%;
-  }
+}
 
 footer h2 {
     color: #BC8F8F;
@@ -179,14 +181,14 @@ footer a:hover {
     transform: scale(1.2);
 }
 
- .container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  height: 15vh;
-  gap: 20px;
-  padding: 10px;
-  align-items: flex-start;
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 15vh;
+    gap: 20px;
+    padding: 10px;
+    align-items: flex-start;
 }
 
 .navegation {
@@ -194,33 +196,37 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-  }
-  
+}
+
 .contact a {
     margin: 0 auto;
-  }
-  
-.services h2, .help h2 {
+}
+
+.services h2,
+.help h2 {
     text-align: center;
-  }
-  
+}
+
 .help li a {
     text-align: center;
-  }
+}
 
-.navegation li, .contact li, .services li, .help li {
+.navegation li,
+.contact li,
+.services li,
+.help li {
     text-align: center;
     margin-top: 10px;
-  }
+}
 
 .icon-footer {
-  width: 20px;
-  height: 20px;
-  margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 
-.container > div:not(:last-child) {
+.container>div:not(:last-child) {
     width: 150px;
     text-align: center;
 }
@@ -246,22 +252,24 @@ footer a:hover {
     font-size: 20px;
     font-weight: bold;
 }
+
 .services-dog .services img {
     width: 300px;
-    
+
 }
 
 .container-dog {
     margin-top: 30px;
     display: flex;
 }
+
 .container-dog p {
     color: #191953;
     font-weight: bold;
     padding-left: 15px;
     padding-top: 15px;
     font-size: 16px;
-    
+
 }
 
 .prod {
@@ -303,7 +311,7 @@ footer a:hover {
     background-color: green;
     border-radius: 20px;
     width: 90px;
-} 
+}
 
 .price .add-cart {
     padding: 5px;
@@ -318,7 +326,7 @@ footer a:hover {
 
 .services-cat .services img {
     width: 300px;
-    
+
 }
 
 .services-cat .services h2 {
@@ -340,13 +348,14 @@ footer a:hover {
     margin-top: 30px;
     display: flex;
 }
+
 .container-cat p {
     color: #191953;
     font-weight: bold;
     padding-left: 15px;
     padding-top: 15px;
     font-size: 16px;
-    
+
 }
 
 .products-cat {
@@ -412,7 +421,7 @@ main {
     border: none;
     outline: none;
     font-size: 15px;
-    padding:0 35px 0 5px;
+    padding: 0 35px 0 5px;
     color: #191953;
 }
 
@@ -470,12 +479,12 @@ body {
     }
 
     .logo img {
-        margin-left: 0; 
-        margin-bottom: 10px; 
+        margin-left: 0;
+        margin-bottom: 10px;
     }
 
     .search-input {
-        width: 80%; 
+        width: 80%;
     }
 
     nav {
@@ -483,30 +492,18 @@ body {
     }
 
     .slideshow img {
-        margin: 20px; 
-        width: 100%; 
+        margin: 20px;
+        width: 100%;
     }
 
-    
+
 }
 
 
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    
-}
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
 
 
 
-@media screen and (min-width: 1025px) {
-   
-}
-
-
-
-
-
-
-
-
+@media screen and (min-width: 1025px) {}
 
